@@ -1,5 +1,5 @@
 {
-  "name": "searchNews",
+  "name": "searchnews",
   "version": "0.0.1",
   "description": "sreach smth news ",
   "main": "src/index.js",
