@@ -1,0 +1,32 @@
+@import url(./_black/menu__project_black.css);
+@import url(./_gray/menu__project_gray.css);
+@import url(./_active/menu__project_active.css);
+@import url(./_hover/menu__project_hover.css);
+
+
+.menu__project {
+  text-decoration: none;
+list-style-type: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+padding-bottom: 28px;
+margin-left: 30px;
+}
+@media screen and (max-width: 425px) {
+  .menu__project {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .menu__project {
+      font-size: 16px;
+      line-height: 24px;
+      margin-left: 0px;
+  }
+}

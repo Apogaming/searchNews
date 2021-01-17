@@ -1,0 +1,44 @@
+.resul-seach__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 16px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1385px) {
+    .resul-seach__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 16px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 1148px) {
+    .resul-seach__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 16px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 998px) {
+    .resul-seach__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 16px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .resul-seach__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 16px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+}

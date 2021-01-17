@@ -1,0 +1,30 @@
+@import url(./__header/menu__header.css);
+@import url(./__footer/menu__footer.css);
+@import url(./__main/menu__main.css);
+@import url(./__project/menu__project.css);
+@import url(./__yandex-praktikum/menu__yandex-praktikum.css);
+@import url(./__socials/menu__socials.css);
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+@media screen and (max-width: 801px) {
+    .menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 747px) {
+    .menu {
+        list-style-type: none;
+        flex-wrap: nowrap;
+
+    }
+}

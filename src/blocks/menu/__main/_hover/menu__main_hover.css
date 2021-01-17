@@ -1,0 +1,8 @@
+.menu__main_hover {
+    color: #B6BCBF;
+    transition: 0.4s;
+}
+.menu__main_hover:hover{
+    color: #000;
+    transition: 0.4s;
+}

@@ -1,0 +1,27 @@
+.commit__btn{
+    max-width: 288px;
+    min-height: 55px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: #1a1b22;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #1a1b22;
+    box-sizing: border-box;
+    border-radius: 80px;
+
+}
+
+@media screen and (max-width: 350px){
+.commit__btn {
+    display: flex;
+}
+}

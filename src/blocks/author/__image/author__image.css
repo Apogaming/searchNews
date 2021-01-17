@@ -1,0 +1,29 @@
+.author__image{
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+@media screen and (max-width: 1040x) {
+    .author__image{
+       width: 350x;
+       height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .author__image{
+       max-width: 220x;
+       max-height: 220px;
+       margin: 61px 34px 61px 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .author__image{
+        max-width: 272px;
+        max-height: 272px;
+       margin: 61px 34px 61px 40px;
+    }
+}

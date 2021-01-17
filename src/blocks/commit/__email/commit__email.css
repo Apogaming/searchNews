@@ -1,0 +1,16 @@
+.commit__email{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1a1b22;
+    margin:0 0 0 0;
+}
+
+@media screen and (max-width: 778px) {
+    .commit__email {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+}

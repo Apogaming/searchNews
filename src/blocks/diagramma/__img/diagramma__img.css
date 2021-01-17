@@ -1,0 +1,11 @@
+@import url(./_date/diagramma__img_date.css);
+@import url(./_scale/diagramma__img_scale.css);
+
+
+.diagramma__img{
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+}
+
+

@@ -1,0 +1,15 @@
+@import url(./_facebook/menu__socials_facebook.css);
+@import url(./_github/menu__socials_github.css);
+
+.menu__socials{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 449px) {
+    .menu__socials {
+        padding-inline-start: 0px;
+    }
+  }

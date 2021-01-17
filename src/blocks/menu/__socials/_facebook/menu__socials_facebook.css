@@ -1,0 +1,6 @@
+.menu__socials_facebook{
+    margin-left: 20px;
+}
+.menu__socials_facebook:hover {
+    opacity: 0.6;
+}

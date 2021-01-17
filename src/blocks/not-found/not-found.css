@@ -1,0 +1,12 @@
+@import url(./__icon/not-found__icon.css);
+@import url(./__text/not-found__text.css);
+@import url(./__title/not-found__title.css);
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f7;
+    min-height: 282px;
+}

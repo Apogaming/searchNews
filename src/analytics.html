@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsAnalyzer</title>
+    <meta name="description"
+        content="Что в мире творится? Поиск новостей по всему миру, популярность статей, аналитика ...">
+
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <!-- <link rel="stylesheet" href="./pages/analytics.css"> -->
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo_black">NewsAnalyzer</a>
+        <nav class="menu">
+            <ul class="menu__header">
+                <li>
+                    <a href="./index.html" class="menu__main menu__main_hover menu__main_gray">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="menu__project  menu__project_gray">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <ul class="menu-analytics">
+        <li>
+            <a href="./index.html" class="menu-analytics__link">Home</a>
+        </li>
+        <li class="menu-analytics__active"> / Analytics</li>
+    </ul>
+    <section class="status">
+        <h2 class="status__title">Your topic:
+            <span class="status__title status__title_search"></span> 
+        </h2>
+        <p class="status__text">New of the week:
+            <span class="status__week"> 34 324</span>
+        </p>
+        <p class="status__text">References in the headlines:
+            <span class="status__number"> 235</span>
+        </p>
+    </section>
+    <section class="diagramma">
+        <h3 class="diagramma__title">Analytics by days</h3>
+        <div class="diagramma__top">
+            <p class="diagramma__count">Month
+                <br>
+             <span class="status__month"> (август)</span></p>
+            <p class="diagramma__count">Number of mentions</p>
+        </div>
+        <ul class="diagramma__scale">
+            <li class="diagramma__scale diagramma__scale_number">0</li>
+            <li class="diagramma__scale diagramma__scale_number">25</li>
+            <li class="diagramma__scale diagramma__scale_number">50</li>
+            <li class="diagramma__scale diagramma__scale_number">70</li>
+            <li class="diagramma__scale diagramma__scale_number">100</li>
+        </ul>
+        <div class="diagramma__graph">
+            <template id="diagramma__container">
+                <div class="diagramma__item">
+                    <div class="diagramma__dates">
+                        <p class="diagramma__date">19, </p>
+                    </div>
+                    <div class="diagramma__percents">
+                        <p class="diagramma__percent">47</p>
+                    </div>
+                </div>
+            </template>
+        </div>
+        <ul class="diagramma__scale">
+            <li class="diagramma__scale diagramma__scale_number">0</li>
+            <li class="diagramma__scale diagramma__scale_number">25</li>
+            <li class="diagramma__scale diagramma__scale_number">50</li>
+            <li class="diagramma__scale diagramma__scale_number">70</li>
+            <li class="diagramma__scale diagramma__scale_number">100</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <p class="footer__copyright">© 2020 Tuan Anh Nguyen</p>
+        <nav class="menu">
+            <ul class="menu__footer">
+                <li>
+                    <a href="./index.html" class="menu__main menu__main_black">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="menu__project menu__main_black">About</a>
+                </li>
+                <!-- <li>
+                    <a href="https://praktikum.yandex.ru/web" class="menu__yandex-praktikum menu__main_black">
+                        Яндекс.Практикум</a>
+                </li> -->
+            </ul>
+            <ul class="menu__socials">
+                <li>
+                    <a href="https://github.com/" class="menu__socials menu__socials_github">
+                        <img src="<%=require('./images/github.svg')%>" alt="GitHub">
+                        <!-- <img src="./images/github.svg" alt="GitHub"> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook/" class="menu__socials menu__socials_facebook">
+                        <img src="<%=require('./images/fb.svg')%>" alt="Facebook">
+                        <!-- <img src="./images/fb.svg" alt="Facebook"> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- <script src="./analytics.js"></script> -->
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+
+</html>

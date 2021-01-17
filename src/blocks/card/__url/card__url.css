@@ -1,0 +1,15 @@
+.card__url{
+    text-decoration: none;
+    background-color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+}
+.card__url:hover{
+    border: 5px solid greenyellow;
+    transform: scale(1.0);
+}

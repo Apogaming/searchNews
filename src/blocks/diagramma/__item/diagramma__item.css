@@ -1,0 +1,11 @@
+.diagramma__item {
+    width: 100%;
+    display: flex;
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width: 500px) {
+    .diagramma__item {
+        margin: 0 0 0 5px;
+    }
+}

@@ -1,0 +1,18 @@
+.menu__yandex-praktikum {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 350px) {
+    .menu__yandex-praktikum {
+        font-size: 16px;
+      line-height: 24px;
+      margin-left: 0px;
+    }
+  }

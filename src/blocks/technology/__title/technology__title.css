@@ -1,0 +1,17 @@
+.technology__title {
+    max-width: 344px;
+    font-family: RobotoSlab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+@media screen and (max-width: 328px) {
+    .technology__title {
+
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}

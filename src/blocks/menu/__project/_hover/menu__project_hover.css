@@ -1,0 +1,8 @@
+.menu__project_hover{
+    color: #b6bcbf;
+    transition: 0.5s;
+}
+.menu__project_hover:hover{
+    color: #fff;
+    transition: 0.5s;
+}

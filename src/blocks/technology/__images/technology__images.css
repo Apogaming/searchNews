@@ -1,0 +1,12 @@
+.technology__images {
+    margin-right: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1020px){
+.technology__images {
+    margin-top: 45px;
+}
+}

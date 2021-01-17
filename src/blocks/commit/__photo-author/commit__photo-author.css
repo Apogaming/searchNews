@@ -1,0 +1,7 @@
+.commit__photo-author{
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    margin-top: 18px;
+    border-radius: 50%;
+}

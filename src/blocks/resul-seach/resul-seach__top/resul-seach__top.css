@@ -1,0 +1,18 @@
+.resul-seach__top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    justify-items: center;
+}
+@media screen and (max-width: 420px) {
+    .resul-seach__top {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between ;
+        justify-items: center;
+        text-align: start;
+    }
+
+}
+
+

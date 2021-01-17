@@ -1,0 +1,11 @@
+.page__top {
+    position: relative;
+    max-width: 100%;
+    min-height: 576px;
+    background-image: url("../../../images/page-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+    
+}
+

@@ -1,0 +1,14 @@
+.commit__top{
+    display: flex;
+    flex-direction: row;
+  
+}
+@media screen and (max-width: 684px) {
+    .commit__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

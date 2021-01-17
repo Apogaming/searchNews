@@ -1,0 +1,31 @@
+@import url(./_black/menu__main_black.css);
+@import url(./_gray/menu__main_gray.css);
+@import url(./_active/menu__main_active.css);
+@import url(./_white/menu__main_white.css);
+@import url(./_hover/menu__main_hover.css);
+
+
+.menu__main{
+text-decoration: none;
+list-style-type: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+padding-bottom: 28px;
+}
+
+@media screen and (max-width: 425px) {
+    .menu__main {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menu__main {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

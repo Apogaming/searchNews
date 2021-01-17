@@ -1,0 +1,24 @@
+@import url(./resul-seach__contaier/resul-seach__container.css);
+@import url(./resul-seach__top/resul-seach__top.css);
+@import url(./resul-seach__title/resul-seach__title.css);
+@import url(./resul-seach__cards/resul-seach__cards.css);
+@import url(./resul-seach__link/resul-seach__link.css);
+
+.resul-seach{
+    background-color: #f5f6f7;
+    padding: 80px 4%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .resul-seach{
+        padding: 40px 40px;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .resul-seach {
+        padding: 16px 16px;
+    }
+
+}

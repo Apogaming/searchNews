@@ -1,0 +1,7 @@
+.menu__main_black{
+   color: #000;
+}
+.menu__main_black:hover {
+    color: #B6BCBF;
+    transition: 0.4s;
+}

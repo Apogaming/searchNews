@@ -1,0 +1,15 @@
+@import url(./_number/diagramma__scale_number.css);
+
+.diagramma__scale {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 16px 0 8px 52px;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 512px) {
+    .diagramma__scale {
+        display: none;
+    }
+}

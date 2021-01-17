@@ -1,0 +1,23 @@
+@import url(./__title/diagramma__title.css);
+@import url(./__top/diagramma__top.css);
+@import url(./__month/diagramma__month.css);
+@import url(./__count/diagramma__count.css);
+@import url(./__scale/diagramma__scale.css);
+@import url(./__img/diagramma__img.css);
+@import url(./__graph/diagramma__graph.css);
+@import url(./__percent/diagramma__percent.css);
+@import url(./__item/diagramma__item.css);
+@import url(./__dates/diagramma__dates.css);
+@import url(./__percents/diagramma__percents.css);
+
+
+
+.diagramma{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 63px 4%;
+  box-sizing: border-box;
+}

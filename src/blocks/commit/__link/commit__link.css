@@ -1,0 +1,17 @@
+.commit__link{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    text-decoration: none;
+}
+.commit__link:hover{
+    color: #b6bcbf;
+}
+@media screen and (max-width: 320px) {
+    .commit__link{
+        display: none;
+
+    }
+}

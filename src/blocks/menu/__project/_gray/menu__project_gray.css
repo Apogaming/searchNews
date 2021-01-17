@@ -1,0 +1,11 @@
+.menu__project_gray{
+    color: #B6BCBF;
+    transition: 0.4s;
+}
+
+
+
+.menu__project_gray:hover{
+    color: #000;
+    transition: 0.4s;
+}
